@@ -1,0 +1,126 @@
+[
+  {
+    "doc_id": "kb_cloth_01_natural_fibers",
+    "category": "clothing",
+    "title": "Natural Fiber Garments (Wool/Cotton/Linen) Seam Rupture, Moth Damage, and Visible Mending",
+    "symptoms": [
+      "Pure wool sweater with 1-3 small moth holes or snagged yarn",
+      "Cotton shirt or trousers with unraveling thread along sleeve or hem seam",
+      "Fabric is high quality, thick, and physically sound across majority of garment",
+      "No widespread fiber rot, dry rot, or permanent grease staining"
+    ],
+    "pathway_suitability": {
+      "repair": "PRIMARY OUTSTANDING PATHWAY. Hand sewing needle and thread ($2) fixes loose seams in 10 minutes. Moth holes can be darned invisibly or artistically accentuated via Japanese Sashiko embroidery / needle felting.",
+      "continue_using": "High suitability after quick stitch; wool garments require infrequent washing (airing out outdoors refreshes natural lanolin fibers).",
+      "reuse": "High resale value on platforms like Depop, Poshmark, or Vinted once mended.",
+      "donate": "Highly requested by quality charities (dress-for-success, winter clothing drives) if clean and intact.",
+      "repurpose": "Felted wool can be cut into thermal winter shoe insoles, draft excluders, hot pads, or wool dryer balls. Cotton can be cut into durable workshop cleaning rags.",
+      "recycle": "Avoid municipal trash. Pure natural fibers can be mechanically composted or fiber-shredded, but fabric downcycling loses yarn integrity."
+    },
+    "repair_considerations": "Minimal skill required. Running stitch or backstitch along seam allowances. For wool darning: matching yarn, blunt darning needle, and darning mushroom or lightbulb inside sleeve.",
+    "reuse_possibilities": "High-durability natural fibers retain structure and thermal properties for decades.",
+    "donation_considerations": "Wash and air dry before donation. Charities strongly prefer natural fiber winter woolens and denim.",
+    "repurposing_possibilities": "1. Upcycled wool mittens from shrunken sweaters; 2. Patchwork quilt squares; 3. Heavy-duty zero-waste kitchen towels.",
+    "recycling_considerations": "Ensure all plastic buttons and metal zippers are stripped before sending to dedicated closed-loop textile fiber recyclers.",
+    "safety_limitations": "Inspect vintage garments for moth larvae; if present, freeze in sealed bag for 72 hours before working to kill insect eggs.",
+    "evidence_text": "WRAP (Waste & Resources Action Programme) UK research documents that extending the active life of clothing by just 9 additional months reduces its annual carbon, water, and waste footprints by 20-30%. Natural animal and plant fibers (wool, linen, hemp) have high embodied water and land footprints during initial agricultural production; preserving garments through simple needle-and-thread repairs provides maximum ecological return.",
+    "source": "WRAP UK Valuing Our Clothes & Ellen MacArthur Foundation Make Fashion Circular",
+    "publication_year": 2023,
+    "source_name": "WRAP UK Valuing Our Clothes & Textile Circularity",
+    "source_url": "https://wrap.org.uk/taking-action/citizen-behaviour-change/valuing-our-clothes",
+    "retrieved_date": "2024-02-28"
+  },
+  {
+    "doc_id": "kb_cloth_02_puffer_jacket",
+    "category": "clothing",
+    "title": "Down and Synthetic Insulated Puffer Jackets Shell Tears, Baffle Rips, and Feathers Leaking",
+    "symptoms": [
+      "Rip or puncture hole on nylon/polyester outer shell from branch snag or sharp corner",
+      "White down feathers or synthetic polyfill tufts leaking out through tear",
+      "Zippers, pocket snaps, hood, and internal lining remain fully functional",
+      "Insulation is dry and has not suffered mildew or rot"
+    ],
+    "pathway_suitability": {
+      "repair": "STRONGLY RECOMMENDED PRIMARY PATHWAY. Pressure-sensitive technical repair tape (Tenacious Tape / N\u5197ylon Gear Patch) or flexible silicone sealant (Seam Grip) creates a waterproof, permanent, washable repair in 60 seconds without sewing needle punctures.",
+      "continue_using": "High suitability. Sealed jacket maintains 100% of thermal warmth rating (CLO value).",
+      "reuse": "Strong resale market in outdoor enthusiast communities with visible gear patch.",
+      "donate": "Winter shelters urgently need warm outerwear regardless of minor cosmetic patches.",
+      "repurpose": "Down can be salvaged to restuff sleeping bags or draft stoppers if jacket is completely shredded.",
+      "recycle": "Puffer jackets with mixed nylon shells, polyurethane coatings, and down/poly blends cannot be mechanically recycled by standard textile mills."
+    },
+    "repair_considerations": "Do NOT hand-sew down jackets without sealing; needle punctures create holes that down feathers will continue escaping from. Clean nylon with alcohol prep pad, round corners of repair patch to prevent peeling, press firmly for 30 seconds. Total cost: $5-$8.",
+    "reuse_possibilities": "Technical patches withstand hundreds of laundry cycles and extreme cold weather.",
+    "donation_considerations": "Outerwear is the single most requested item at cold-climate municipal homeless shelters.",
+    "repurposing_possibilities": "Cushion filling or pet bed insulation.",
+    "recycling_considerations": "Most textile shredders reject insulated multi-material jackets; landfill diversion through repair is critical.",
+    "safety_limitations": "Ensure jacket down is completely dry before patching to prevent internal mold development.",
+    "evidence_text": "Down jackets embody immense thermal engineering and supply chain resources. Outdoor gear durability studies conducted by Patagonia and the Textile Exchange show that over 80% of consumer-discarded down jackets are retired due to localized outer-shell rips under 3 cm in length. Applying a flexible polyurethane technical patch restores 99% of baffle integrity with zero needle damage.",
+    "source": "Patagonia Worn Wear Repair Guides & Textile Exchange Technical Outerwear Study",
+    "publication_year": 2022,
+    "source_name": "Patagonia Worn Wear Technical Repair",
+    "source_url": "https://wornwear.patagonia.com/",
+    "retrieved_date": "2024-06-05"
+  },
+  {
+    "doc_id": "kb_cloth_03_synthetic_fast_fashion",
+    "category": "clothing",
+    "title": "Fast-Fashion Synthetics (Polyester/Elastane) Degradation, Pilling, and Microfiber Shedding",
+    "symptoms": [
+      "100% polyester or poly-blend t-shirt or athleisure leggings",
+      "Extensive fabric pilling (lint fuzzballs) along inner thighs or underarms",
+      "Loss of elastic recovery (wavy waistband, sagging knees)",
+      "Persistent odor caused by bacterial biofilm embedded in hydrophobic synthetic fibers"
+    ],
+    "pathway_suitability": {
+      "repurpose": "High suitability for workshop cleaning rags, pet bedding, gardening ties, or braided utility cords.",
+      "continue_using": "Feasible around house or for messy DIY painting/yard work after using an electric fabric defuzzer/shaving razor.",
+      "repair": "Shave pills with $10 fabric shaver. For biofilm odor, soak in 1:4 distilled white vinegar and warm water for 60 minutes before washing.",
+      "donate": "Only donate if clean, unpilled, and elastic is firm; thrift stores landfill up to 80% of low-grade fast fashion.",
+      "recycle": "Dedicated textile drop-off (e.g., store take-back bins for downcycling into acoustic insulation or car seat stuffing).",
+      "recycle_note": "Municipal curbside recycling bins CANNOT process textiles and clothing will jam sorting machinery."
+    },
+    "repair_considerations": "Fabric shaver removes surface pills without cutting base knit. Replacing blown elastic in waistband is rarely economically worthwhile for ultra-cheap garments unless sentimental.",
+    "reuse_possibilities": "Home workout, painting clothing, rough outdoor labor.",
+    "donation_considerations": "Thrift stores are inundated with worn fast-fashion synthetics. Do not donate garments with blown elastic or heavy staining.",
+    "repurposing_possibilities": "Braided rug, pet toy ropes, plant ties in garden, grease absorption cloths.",
+    "recycling_considerations": "Ensure dropped off at certified textile fiber reclaimers (I:CO, Texaid) who process poly-blends into acoustic insulation mats.",
+    "safety_limitations": "Synthetic fibers melt under high iron heat; always use lowest synthetic temperature setting.",
+    "evidence_text": "Over 60% of modern garments are synthesized from petrochemical plastics (polyester, nylon, acrylic). Synthetic clothing sheds up to 700,000 microscopic plastic fibers during a single wash cycle. When fast-fashion garments lose elasticity or pill heavily, secondary donation markets are saturated. Repurposing as home utility rags keeps synthetic microfibers out of waterways while displacing the purchase of virgin paper towels.",
+    "source": "Ellen MacArthur Foundation A New Textiles Economy & Changing Markets Foundation",
+    "publication_year": 2023,
+    "source_name": "Ellen MacArthur Foundation A New Textiles Economy",
+    "source_url": "https://ellenmacarthurfoundation.org/our-work/activities/make-fashion-circular",
+    "retrieved_date": "2024-04-12"
+  },
+  {
+    "doc_id": "kb_cloth_04_denim",
+    "category": "clothing",
+    "title": "Denim Jeans Inner Thigh Wear, Crotch Blowout, and Reinforced Darning",
+    "symptoms": [
+      "Heavy cotton denim jeans with thinning or torn fabric at inner thigh crotch seam",
+      "Waistband, pockets, rivets, zipper fly, and lower legs in excellent condition",
+      "No widespread mold, rot, or acid burns",
+      "Tear is 2 to 6 cm along friction stress point"
+    ],
+    "pathway_suitability": {
+      "repair": "VERY HIGH SUITABILITY. Machine darning or hand sashiko patching using fusible interfacing and matching cotton thread restores structural tensile strength for years.",
+      "continue_using": "High suitability once reinforced; crotch repairs are completely hidden from view while wearing.",
+      "reuse": "High resale value for vintage or selvedge denim brands even after visible mending.",
+      "donate": "Acceptable for workwear charities and blue-collar clothing pantries once reinforced.",
+      "repurpose": "Outstanding heavy-duty cotton canvas: cut into denim tote bags, tool rolls, durable aprons, or denim insulation.",
+      "recycle": "Denim take-back programs (e.g., Cotton Blue Jeans Go Green) downcycle denim into building insulation."
+    },
+    "repair_considerations": "Iron lightweight fusible cotton interfacing on inside of tear. From outside, run dense multi-directional straight stitches across frayed warp and weft fibers on sewing machine. Cost: <$2.",
+    "reuse_possibilities": "Denim improves in softness with age; repair maintains favorite worn fit.",
+    "donation_considerations": "Charities reject jeans with gaping crotch holes unless mended.",
+    "repurposing_possibilities": "Workshop tool roll, gardening apron with deep pockets, insulating pot holders.",
+    "recycling_considerations": "Remove metal brass rivets and zipper before sending to pure cotton mechanical fiber shredders.",
+    "safety_limitations": "Ensure denim sewing machine needle is heavy gauge (#16 or #18 / 100-110 Jeans needle) to prevent needle shatter.",
+    "evidence_text": "Manufacturing a single pair of cotton jeans consumes between 7,000 and 10,000 liters of fresh water during cotton cultivation and chemical indigo dyeing. Repairing an inner-thigh blowout extends garment utility by 3 to 5 additional years, delivering the highest water-conservation ROI of any apparel repair intervention.",
+    "source": "Water Footprint Network & Levi Strauss & Co. Product Lifecycle Assessment",
+    "publication_year": 2023,
+    "source_name": "Water Footprint Network & Levi Strauss & Co. Lifecycle Study",
+    "source_url": "https://www.waterfootprint.org/",
+    "retrieved_date": "2024-05-18"
+  }
+]

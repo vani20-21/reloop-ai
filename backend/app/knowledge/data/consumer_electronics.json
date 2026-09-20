@@ -1,0 +1,94 @@
+[
+  {
+    "doc_id": "kb_elec_01_headphones",
+    "category": "consumer_electronics",
+    "title": "Over-Ear Headphones Synthetic Leather Flaking, Headband Padding, and Cable Fatigue",
+    "symptoms": [
+      "Faux-leather polyurethane ear cushions peeling, flaking black specks onto skin",
+      "Headband cushion foam flattened or deteriorating",
+      "Audio driver speakers produce clean, balanced, high-fidelity sound",
+      "Audio cuts out when wire is wiggled near the 3.5mm connector jack"
+    ],
+    "pathway_suitability": {
+      "repair": "VERY HIGH SUITABILITY. Ear pad replacement is a snap-on or stretch-on operation taking 2 minutes. Audio cable can be replaced or spliced with a $4 metal solder-on 3.5mm TRS connector.",
+      "continue_using": "High suitability after fitting fabric stretch slip-on covers over peeling pads.",
+      "reuse": "High resale value once replacement $8-$15 velour or cooling-gel cushions are fitted.",
+      "donate": "Excellent donation candidate for schools or community media centers after cushion replacement and alcohol wipe sanitization.",
+      "repurpose": "Detach acoustic drivers for DIY arcade cabinet sound, intercom system, or vintage helmet audio.",
+      "recycle": "NOT RECOMMENDED. Throwing away premium audio transducers due to degraded $5 consumable foam is wasteful."
+    },
+    "repair_considerations": "Replacement ear cushions in velour, sheepskin, or protein leather cost $8-$18 across eBay/Amazon. Soldering a replacement 3.5mm headphone jack takes basic low-wattage iron and wire stripper (burn enamel coating with lighter or flux before tinning).",
+    "reuse_possibilities": "Restores comfort to as-new condition. Velour pads do not peel over time like cheap polyurethane faux-leather.",
+    "donation_considerations": "Libraries and audio-visual clubs eagerly welcome refurbished wired headphones with clean cushions.",
+    "repurposing_possibilities": "Desktop monitoring or podcast editing setup.",
+    "recycling_considerations": "Headphones contain mixed polymers, copper voice coils, and neodymium magnets which shredder facilities downcycle into low-grade scrap.",
+    "safety_limitations": "Ensure wire soldering iron is operated in ventilated area with lead-free solder.",
+    "evidence_text": "Consumer audio products frequently suffer premature retirement due to cosmetic breakdown of polyurethane skin contact surfaces, while neodymium permanent magnets and 40mm mylar diaphragms retain acoustic response curves for over 20 years. Right to repair case studies demonstrate that modular cushion replacement represents less than 5% of replacement cost while fully averting upstream manufacturing waste.",
+    "source": "Audio Engineering Society (AES) Lifespan Notes & Repair Caf\u00e9 International",
+    "publication_year": 2023,
+    "source_name": "Audio Engineering Society & Repair Caf\u00e9 International",
+    "source_url": "https://www.repaircafe.org/en/",
+    "retrieved_date": "2024-03-15"
+  },
+  {
+    "doc_id": "kb_elec_02_controller",
+    "category": "consumer_electronics",
+    "title": "Gaming Controller Analog Stick Drift, Potentiometer Carbon Track Wear, and Button Sticking",
+    "symptoms": [
+      "In-game character or crosshair creeps or moves spontaneously without touching joystick",
+      "Action buttons (A/B/X/Y) stick or feel mushy due to accumulated dirt or sugary drink spill",
+      "Controller communicates flawlessly over Bluetooth / USB-C and charges properly"
+    ],
+    "pathway_suitability": {
+      "repair": "HIGH SUITABILITY. 70% of drift is resolved by electrical contact cleaner spray (WD-40 Specialist Contact Cleaner / DeoxIT) into joystick housing without soldering. Worn potentiometers or Hall-effect modules can be soldered for under $5 in parts.",
+      "continue_using": "Software deadzone calibration in game settings (adjusting deadzone from 5% to 15%) can temporarily eliminate perceived drift.",
+      "reuse": "High resale value once cleaned and recalibrated.",
+      "donate": "Local youth centers, after-school programs, and video game preservation clubs appreciate refurbished controllers.",
+      "repurpose": "Robotics controller, drone ground control, accessibility PC gamepad.",
+      "recycle": "Premature. Most stick drift does not compromise the mainboard or battery."
+    },
+    "repair_considerations": "T8/T6 security Torx screwdriver required for console controllers. Contact cleaner flush takes 5 minutes. Advanced replacement involves desoldering 14 through-hole pins to install drift-immune electromagnetic Hall-effect sensor modules ($4/pair).",
+    "reuse_possibilities": "PC gaming, mobile phone clip gaming, emulator station.",
+    "donation_considerations": "Community youth centers frequently lack sufficient working controllers for shared multiplayer setups.",
+    "repurposing_possibilities": "Custom Arduino / Raspberry Pi robotics remote control.",
+    "recycling_considerations": "Lithium battery must be extracted before e-waste drop-off.",
+    "safety_limitations": "Do NOT use standard WD-40 (oil-based lubricant) on electronic boards; only use dedicated non-conductive fast-evaporating electrical contact cleaner.",
+    "evidence_text": "Analog stick drift is overwhelmingly caused by micro-abrasions on carbon resistive tracks inside Alps Alpine potentiometers or conductive dust accumulation. Modern gaming console controllers cost $60-$80, whereas contact cleaner restoration costs under $0.50 per application, dramatically extending the mechanical lifespan of gaming hardware.",
+    "source": "iFixit Controller Tear-down Analysis & Consumer Reports Electronics Guide",
+    "publication_year": 2023,
+    "source_name": "iFixit Game Console & Controller Repair Index",
+    "source_url": "https://www.ifixit.com/Device/Game_Console",
+    "retrieved_date": "2024-05-22"
+  },
+  {
+    "doc_id": "kb_elec_03_ereader",
+    "category": "consumer_electronics",
+    "title": "E-Reader Battery Sluggishness, Storage Exhaustion, and Micro-USB Port Wear",
+    "symptoms": [
+      "E-ink screen is completely sharp, high-contrast, and undamaged",
+      "Page turns operate normally, front-light LEDs work evenly",
+      "Micro-USB charging cable must be held at an awkward angle to charge",
+      "Battery drains over 3 days instead of traditional 3-4 weeks"
+    ],
+    "pathway_suitability": {
+      "repair": "High suitability. Clean lint out of micro-USB port with wooden toothpick and 99% isopropyl alcohol. Battery cell is modular and accessible in most Kindle/Kobo models.",
+      "continue_using": "High suitability. An e-reader with a degraded battery still lasts several days of reading, far longer than any smartphone.",
+      "reuse": "Exceptional resale or gift candidate. E-ink screens do not age like OLED/LCD and cause zero eye fatigue.",
+      "donate": "Senior centers, literacy charities, and school reading clubs value dedicated e-readers with no social media distractions.",
+      "repurpose": "Jailbreak/mod with open-source firmware (KOReader) or use as low-power dynamic e-ink weather station, desk calendar, or crypto ticker.",
+      "recycle": "LAST RESORT. E-ink displays are uniquely durable and energy-efficient."
+    },
+    "repair_considerations": "Plastic guitar pick or spudger to open snapped plastic casing. Li-ion pouch cell replacement is typically under $15.",
+    "reuse_possibilities": "Sync books via Calibre open-source desktop library without commercial lock-in.",
+    "donation_considerations": "Ensure personal Amazon/Kobo accounts are deregistered and sideload public domain classics (Project Gutenberg).",
+    "repurposing_possibilities": "Wi-Fi e-ink desk dashboard displaying daily agenda, family calendar, or home solar generation stats with weeks-long battery runtime.",
+    "recycling_considerations": "Certified e-waste facility for lithium battery and motherboard precious metals.",
+    "safety_limitations": "Do not exert localized pressure on e-ink substrate during battery pry out; glass-backed e-ink can fracture internally.",
+    "evidence_text": "Electrophoretic e-ink displays only consume electrical power during state transitions (turning a page) and consume zero energy while presenting static text. Because optical performance does not degrade over decades, an e-reader retains 95% of its functional utility even when battery capacity drops by half. Life cycle assessments show e-readers achieve carbon break-even compared to printed books after reading roughly 20 to 30 titles.",
+    "source": "Royal Institute of Technology (KTH) Lifecycle Assessment & Calibre Open Reading Project",
+    "publication_year": 2022,
+    "source_name": "Royal Institute of Technology (KTH) Circular Electronics",
+    "source_url": "https://www.kth.se/en",
+    "retrieved_date": "2024-01-29"
+  }
+]

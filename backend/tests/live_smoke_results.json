@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-19T19:45:10.826972+00:00",
+    "llm_provider": "Google Gemini (gemini-3.6-flash)",
+    "llm_model": "gemini-3.6-flash",
+    "evaluation_type": "Real Gemini Production Pipeline Smoke Test",
+    "benchmark_claim": "NOT an accuracy benchmark \u2014 live production sanity test suite",
+    "total_cases": 5,
+    "successful_cases": 0,
+    "all_succeeded": false
+  },
+  "cases": [
+    {
+      "case_id": "CASE-01-REPAIR",
+      "case_type": "REPAIR",
+      "input": "My 4-year-old laptop still works, but the battery lasts only about one hour and it has become slow. I was thinking of replacing it.",
+      "category_hint": "laptops",
+      "llm_provider": "Google Gemini (gemini-3.6-flash)",
+      "llm_model": "gemini-3.6-flash",
+      "rag_used": true,
+      "retrieved_knowledge_base_documents": [
+        {
+          "doc_id": "kb_laptop_01_battery",
+          "title": "Laptop Lithium-Ion Battery Degradation and Swelling Safety",
+          "category": "laptops",
+          "source_name": "European Environmental Bureau (EEB) & iFixit Lifespan Study",
+          "similarity_score": 0.877,
+          "publication_year": 2023,
+          "key_snippet": "According to the European Environmental Bureau lifecycle assessment, manufacturing a new notebook generates approximately 70-80% of its total lifetime greenhous..."
+        },
+        {
+          "doc_id": "kb_elec_03_ereader",
+          "title": "E-Reader Battery Sluggishness, Storage Exhaustion, and Micro-USB Port Wear",
+          "category": "consumer_electronics",
+          "source_name": "Royal Institute of Technology (KTH) Circular Electronics",
+          "similarity_score": 0.2595,
+          "publication_year": 2022,
+          "key_snippet": "Electrophoretic e-ink displays only consume electrical power during state transitions (turning a page) and consume zero energy while presenting static text. Bec..."
+        },
+        {
+          "doc_id": "kb_laptop_02_thermal",
+          "title": "Laptop Thermal Throttling, Dust Accumulation, and Thermal Paste Degradation",
+          "category": "laptops",
+          "source_name": "iFixit Heatsink Servicing Guidelines",
+          "similarity_score": 0.8089,
+          "publication_year": 2022,
+          "key_snippet": "Empirical testing by repair organizations indicates that over 40% of perceived laptop obsolescence and sluggishness is caused by thermal throttling due to compa..."
+        }
+      ],
+      "retrieval_similarity_scores": [
+        0.877,
+        0.2595,
+        0.8089
+      ],
+      "evidence_sources": [
+        "European Environmental Bureau (EEB) & iFixit Lifespan Study (Laptop Lithium-Ion Battery Degradation and Swelling Safety)",
+        "Royal Institute of Technology (KTH) Circular Electronics (E-Reader Battery Sluggishness, Storage Exhaustion, and Micro-USB Port Wear)",
+        "iFixit Heatsink Servicing Guidelines (Laptop Thermal Throttling, Dust Accumulation, and Thermal Paste Degradation)"
+      ],
+      "detected_product": null,
+      "detected_condition": null,
+      "user_intent": null,
+      "recommended_pathway": null,
+      "alternatives": [],
+      "evidence_strength": null,
+      "concise_rationale": null,
+      "missing_information": [],
+      "safety_guardrail_actions": [],
+      "unsupported_claims_detected": [],
+      "errors_failures": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "success": false
+    },
+    {
+      "case_id": "CASE-02-REUSE",
+      "case_type": "REUSE",
+      "input": "I have a working smartphone that I want to replace because I bought a newer one. The phone has no major problems.",
+      "category_hint": "smartphones",
+      "llm_provider": "Google Gemini (gemini-3.6-flash)",
+      "llm_model": "gemini-3.6-flash",
+      "rag_used": true,
+      "retrieved_knowledge_base_documents": [
+        {
+          "doc_id": "kb_phone_01_screen",
+          "title": "Smartphone Cracked Glass, Digitizer Functionality, and Display Replacement",
+          "category": "smartphones",
+          "source_name": "The Restart Project & iFixit Smartphone Repairability Benchmarks",
+          "similarity_score": 0.9243,
+          "publication_year": 2023,
+          "key_snippet": "Smartphone screens represent up to 30% of total device manufacturing carbon emissions and raw material costs. According to the Restart Project, over 65% of prem..."
+        },
+        {
+          "doc_id": "kb_phone_03_obsolete_software",
+          "title": "Smartphone Software Deprecation, Banking App Incompatibility, and Repurposing",
+          "category": "smartphones",
+          "source_name": "Ellen MacArthur Foundation Circular Electronics Case Study",
+          "similarity_score": 0.9183,
+          "publication_year": 2024,
+          "key_snippet": "Smartphones contain upwards of 40 individual elements including neodymium magnets, tantalum capacitors, cobalt cathodes, and gold-plated connectors. When smartp..."
+        },
+        {
+          "doc_id": "kb_phone_04_tablet",
+          "title": "Tablet and iPad Touch Digitizer, Secondary Display, and Educational Kiosk Use",
+          "category": "smartphones",
+          "source_name": "Electronics Eco-Design Observatory & Circular Hardware Consortium",
+          "similarity_score": 0.8919,
+          "publication_year": 2023,
+          "key_snippet": "Consumer electronics lifecycle studies indicate that tablets have longer secondary life potentials than smartphones due to their larger screen real-estate and i..."
+        }
+      ],
+      "retrieval_similarity_scores": [
+        0.9243,
+        0.9183,
+        0.8919
+      ],
+      "evidence_sources": [
+        "The Restart Project & iFixit Smartphone Repairability Benchmarks (Smartphone Cracked Glass, Digitizer Functionality, and Display Replacement)",
+        "Ellen MacArthur Foundation Circular Electronics Case Study (Smartphone Software Deprecation, Banking App Incompatibility, and Repurposing)",
+        "Electronics Eco-Design Observatory & Circular Hardware Consortium (Tablet and iPad Touch Digitizer, Secondary Display, and Educational Kiosk Use)"
+      ],
+      "detected_product": null,
+      "detected_condition": null,
+      "user_intent": null,
+      "recommended_pathway": null,
+      "alternatives": [],
+      "evidence_strength": null,
+      "concise_rationale": null,
+      "missing_information": [],
+      "safety_guardrail_actions": [],
+      "unsupported_claims_detected": [],
+      "errors_failures": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "success": false
+    },
+    {
+      "case_id": "CASE-03-AMBIGUOUS",
+      "case_type": "AMBIGUOUS",
+      "input": "I have an old laptop and don't know what to do with it.",
+      "category_hint": "laptops",
+      "llm_provider": "Google Gemini (gemini-3.6-flash)",
+      "llm_model": "gemini-3.6-flash",
+      "rag_used": true,
+      "retrieved_knowledge_base_documents": [
+        {
+          "doc_id": "kb_laptop_04_obsolete_os",
+          "title": "Operating System Obsolescence and Hardware Rejuvenation via Lightweight Linux or ChromeOS Flex",
+          "category": "laptops",
+          "source_name": "Free Software Foundation & UN Digital Inclusion Stewardship",
+          "similarity_score": 0.8217,
+          "publication_year": 2024,
+          "key_snippet": "An estimated 240 million functional PCs risk premature obsolescence globally due to commercial OS hardware cutoffs. Research from the Free Software Foundation a..."
+        },
+        {
+          "doc_id": "kb_laptop_02_thermal",
+          "title": "Laptop Thermal Throttling, Dust Accumulation, and Thermal Paste Degradation",
+          "category": "laptops",
+          "source_name": "iFixit Heatsink Servicing Guidelines",
+          "similarity_score": 0.8182,
+          "publication_year": 2022,
+          "key_snippet": "Empirical testing by repair organizations indicates that over 40% of perceived laptop obsolescence and sluggishness is caused by thermal throttling due to compa..."
+        },
+        {
+          "doc_id": "kb_laptop_01_battery",
+          "title": "Laptop Lithium-Ion Battery Degradation and Swelling Safety",
+          "category": "laptops",
+          "source_name": "European Environmental Bureau (EEB) & iFixit Lifespan Study",
+          "similarity_score": 0.8156,
+          "publication_year": 2023,
+          "key_snippet": "According to the European Environmental Bureau lifecycle assessment, manufacturing a new notebook generates approximately 70-80% of its total lifetime greenhous..."
+        }
+      ],
+      "retrieval_similarity_scores": [
+        0.8217,
+        0.8182,
+        0.8156
+      ],
+      "evidence_sources": [
+        "Free Software Foundation & UN Digital Inclusion Stewardship (Operating System Obsolescence and Hardware Rejuvenation via Lightweight Linux or ChromeOS Flex)",
+        "iFixit Heatsink Servicing Guidelines (Laptop Thermal Throttling, Dust Accumulation, and Thermal Paste Degradation)",
+        "European Environmental Bureau (EEB) & iFixit Lifespan Study (Laptop Lithium-Ion Battery Degradation and Swelling Safety)"
+      ],
+      "detected_product": null,
+      "detected_condition": null,
+      "user_intent": null,
+      "recommended_pathway": null,
+      "alternatives": [],
+      "evidence_strength": null,
+      "concise_rationale": null,
+      "missing_information": [],
+      "safety_guardrail_actions": [],
+      "unsupported_claims_detected": [],
+      "errors_failures": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "success": false
+    },
+    {
+      "case_id": "CASE-04-SAFETY",
+      "case_type": "SAFETY",
+      "input": "My phone battery is swollen and the back of the phone is lifting.",
+      "category_hint": "smartphones",
+      "llm_provider": "Google Gemini (gemini-3.6-flash)",
+      "llm_model": "gemini-3.6-flash",
+      "rag_used": true,
+      "retrieved_knowledge_base_documents": [
+        {
+          "doc_id": "kb_phone_02_battery_swelling",
+          "title": "Smartphone Battery Depletion vs. Dangerous Cell Swelling and Thermal Runaway",
+          "category": "smartphones",
+          "source_name": "US Consumer Product Safety Commission (CPSC) & Battery University",
+          "similarity_score": 0.9681,
+          "publication_year": 2023,
+          "key_snippet": "US Consumer Product Safety Commission (CPSC) and battery safety science confirm that lithium-ion pouch cells accumulate gas (hydrocarbons, carbon dioxide, hydro..."
+        },
+        {
+          "doc_id": "kb_laptop_01_battery",
+          "title": "Laptop Lithium-Ion Battery Degradation and Swelling Safety",
+          "category": "laptops",
+          "source_name": "European Environmental Bureau (EEB) & iFixit Lifespan Study",
+          "similarity_score": 0.2529,
+          "publication_year": 2023,
+          "key_snippet": "According to the European Environmental Bureau lifecycle assessment, manufacturing a new notebook generates approximately 70-80% of its total lifetime greenhous..."
+        },
+        {
+          "doc_id": "kb_phone_03_obsolete_software",
+          "title": "Smartphone Software Deprecation, Banking App Incompatibility, and Repurposing",
+          "category": "smartphones",
+          "source_name": "Ellen MacArthur Foundation Circular Electronics Case Study",
+          "similarity_score": 0.7829,
+          "publication_year": 2024,
+          "key_snippet": "Smartphones contain upwards of 40 individual elements including neodymium magnets, tantalum capacitors, cobalt cathodes, and gold-plated connectors. When smartp..."
+        }
+      ],
+      "retrieval_similarity_scores": [
+        0.9681,
+        0.2529,
+        0.7829
+      ],
+      "evidence_sources": [
+        "US Consumer Product Safety Commission (CPSC) & Battery University (Smartphone Battery Depletion vs. Dangerous Cell Swelling and Thermal Runaway)",
+        "European Environmental Bureau (EEB) & iFixit Lifespan Study (Laptop Lithium-Ion Battery Degradation and Swelling Safety)",
+        "Ellen MacArthur Foundation Circular Electronics Case Study (Smartphone Software Deprecation, Banking App Incompatibility, and Repurposing)"
+      ],
+      "detected_product": null,
+      "detected_condition": null,
+      "user_intent": null,
+      "recommended_pathway": null,
+      "alternatives": [],
+      "evidence_strength": null,
+      "concise_rationale": null,
+      "missing_information": [],
+      "safety_guardrail_actions": [],
+      "unsupported_claims_detected": [],
+      "errors_failures": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "success": false
+    },
+    {
+      "case_id": "CASE-05-NON-ELECTRONIC",
+      "case_type": "NON-ELECTRONIC",
+      "input": "I have a wool sweater with a small tear. I don't want it anymore, but it is otherwise usable.",
+      "category_hint": "clothing",
+      "llm_provider": "Google Gemini (gemini-3.6-flash)",
+      "llm_model": "gemini-3.6-flash",
+      "rag_used": true,
+      "retrieved_knowledge_base_documents": [
+        {
+          "doc_id": "kb_cloth_01_natural_fibers",
+          "title": "Natural Fiber Garments (Wool/Cotton/Linen) Seam Rupture, Moth Damage, and Visible Mending",
+          "category": "clothing",
+          "source_name": "WRAP UK Valuing Our Clothes & Textile Circularity",
+          "similarity_score": 0.9304,
+          "publication_year": 2023,
+          "key_snippet": "WRAP (Waste & Resources Action Programme) UK research documents that extending the active life of clothing by just 9 additional months reduces its annual carbon..."
+        },
+        {
+          "doc_id": "kb_cloth_03_synthetic_fast_fashion",
+          "title": "Fast-Fashion Synthetics (Polyester/Elastane) Degradation, Pilling, and Microfiber Shedding",
+          "category": "clothing",
+          "source_name": "Ellen MacArthur Foundation A New Textiles Economy",
+          "similarity_score": 0.8642,
+          "publication_year": 2023,
+          "key_snippet": "Over 60% of modern garments are synthesized from petrochemical plastics (polyester, nylon, acrylic). Synthetic clothing sheds up to 700,000 microscopic plastic ..."
+        },
+        {
+          "doc_id": "kb_cloth_02_puffer_jacket",
+          "title": "Down and Synthetic Insulated Puffer Jackets Shell Tears, Baffle Rips, and Feathers Leaking",
+          "category": "clothing",
+          "source_name": "Patagonia Worn Wear Technical Repair",
+          "similarity_score": 0.8638,
+          "publication_year": 2022,
+          "key_snippet": "Down jackets embody immense thermal engineering and supply chain resources. Outdoor gear durability studies conducted by Patagonia and the Textile Exchange show..."
+        }
+      ],
+      "retrieval_similarity_scores": [
+        0.9304,
+        0.8642,
+        0.8638
+      ],
+      "evidence_sources": [
+        "WRAP UK Valuing Our Clothes & Textile Circularity (Natural Fiber Garments (Wool/Cotton/Linen) Seam Rupture, Moth Damage, and Visible Mending)",
+        "Ellen MacArthur Foundation A New Textiles Economy (Fast-Fashion Synthetics (Polyester/Elastane) Degradation, Pilling, and Microfiber Shedding)",
+        "Patagonia Worn Wear Technical Repair (Down and Synthetic Insulated Puffer Jackets Shell Tears, Baffle Rips, and Feathers Leaking)"
+      ],
+      "detected_product": null,
+      "detected_condition": null,
+      "user_intent": null,
+      "recommended_pathway": null,
+      "alternatives": [],
+      "evidence_strength": null,
+      "concise_rationale": null,
+      "missing_information": [],
+      "safety_guardrail_actions": [],
+      "unsupported_claims_detected": [],
+      "errors_failures": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "success": false
+    }
+  ]
+}

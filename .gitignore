@@ -1,0 +1,43 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.*
+*.env
+backend/.env
+backend/.env.*
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local SQLite Database Files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/*.db-wal
+backend/data/*.db-shm
+
+# Frontend / Node
+node_modules/
+dist/
+.vite/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

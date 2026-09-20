@@ -1,0 +1,126 @@
+[
+  {
+    "doc_id": "kb_phone_01_screen",
+    "category": "smartphones",
+    "title": "Smartphone Cracked Glass, Digitizer Functionality, and Display Replacement",
+    "symptoms": [
+      "Front glass cracked or shattered like spiderweb",
+      "Touch digitizer still registers finger taps accurately",
+      "OLED or LCD underneath is intact without black ink spots or vertical lines",
+      "No loose glass shards penetrating fingers"
+    ],
+    "pathway_suitability": {
+      "continue_using": "High suitability if protected with a tempered glass screen protector or clear tape overlay to seal fragments.",
+      "repair": "High suitability. Screen assembly replacement restores cosmetic integrity and water resistance.",
+      "reuse": "Viable resale as 'cracked glass / functional' with appropriate 40-50% discount.",
+      "donate": "Acceptable for emergency phone programs (e.g. 911/shelter phones) if touchscreen works.",
+      "repurpose": "Outstanding candidate for stationary home security camera (Alfred Camera), dedicated in-car GPS/dashcam, or wireless Spotify streaming receiver.",
+      "recycle": "Premature if display and motherboard remain operational."
+    },
+    "repair_considerations": "Modular screen replacements are widely supported with aftermarket kits ($25-$60) for popular brands. Heat gun or iOpener needed to soften perimeter adhesive. Intermediate DIY skill required.",
+    "reuse_possibilities": "Full smartphone features remain usable; screen protector prevents further crack propagation.",
+    "donation_considerations": "Many domestic violence shelters and homeless outreach organizations accept functional cracked smartphones for emergency communications.",
+    "repurposing_possibilities": "High-definition webcam (using Camo / DroidCam), baby monitor, 3D printer remote monitoring camera (OctoPrint/Klipper), smart home wall-mounted dashboard.",
+    "recycling_considerations": "Recycle through manufacturer take-back or certified e-waste recycler if frame is twisted or logic board is damaged.",
+    "safety_limitations": "Micro-shards of glass can shed; apply transparent adhesive film or screen protector immediately before handling.",
+    "evidence_text": "Smartphone screens represent up to 30% of total device manufacturing carbon emissions and raw material costs. According to the Restart Project, over 65% of prematurely discarded smartphones have broken screens as their sole defect while processors and memory are fully operational. Installing a tempered glass protector over hair-line fractures or replacing the modular panel prevents the manufacturing footprint of a replacement device.",
+    "source": "The Restart Project & iFixit Smartphone Repairability Benchmarks",
+    "publication_year": 2023,
+    "source_name": "The Restart Project & iFixit Smartphone Repairability Benchmarks",
+    "source_url": "https://www.ifixit.com/smartphone-repairability",
+    "retrieved_date": "2024-05-10"
+  },
+  {
+    "doc_id": "kb_phone_02_battery_swelling",
+    "category": "smartphones",
+    "title": "Smartphone Battery Depletion vs. Dangerous Cell Swelling and Thermal Runaway",
+    "symptoms": [
+      "Battery health indicator reports under 80% maximum capacity",
+      "Phone shuts off at 20% or in cold weather",
+      "Rear glass or display screen is pushed outward or popped open by bulging battery",
+      "Sweet chemical acetone-like odor or localized heat while charging"
+    ],
+    "pathway_suitability": {
+      "repair": "High suitability for normal degradation (under 80% health). CAUTION: Swollen battery requires immediate trained disposal or careful specialized technician removal.",
+      "continue_using": "Normal degraded battery can be used with a portable power bank. SWOLLEN BATTERY MUST NOT BE USED OR CHARGED.",
+      "reuse": "Normal battery can be resold with disclosure. Swollen battery MUST NOT be shipped or resold.",
+      "donate": "Charities reject phones with swollen batteries due to insurance and fire regulations.",
+      "repurpose": "Can only be repurposed if swollen battery is safely extracted and device can run battery-less on 5V bypass (some models require dummy battery simulator).",
+      "recycle": "MANDATORY immediate e-waste / hazardous waste processing for swollen or punctured cells."
+    },
+    "repair_considerations": "Normal battery replacement: $15-$30 replacement kit. Swollen battery: Do not bend or use metal pry tools. Use blunt plastic picks and isopropyl alcohol to soften pull-tabs. Work outdoors or in ventilated area away from combustibles.",
+    "reuse_possibilities": "Power bank tethering extends normal battery phones by 1-2 years.",
+    "donation_considerations": "Only donate after battery replacement or if phone holds at least 3 hours screen-on time.",
+    "repurposing_possibilities": "Permanent plugged-in sensor or audio gateway (after battery removal/bypass).",
+    "recycling_considerations": "Place swollen battery in sand bucket or metal container. Deliver to hazardous waste e-waste depot. NEVER dispose in curb recycling or trash.",
+    "safety_limitations": "CRITICAL HAZARD: Thermal runaway risk. Puncturing a swollen pouch cell produces violent jet fires exceeding 600\u00b0C and toxic hydrofluoric gas fumes.",
+    "evidence_text": "US Consumer Product Safety Commission (CPSC) and battery safety science confirm that lithium-ion pouch cells accumulate gas (hydrocarbons, carbon dioxide, hydrogen) during internal short-circuiting or electrolyte breakdown. While standard capacity drop is a normal electrochemical aging process solved via simple modular cell swap, swelling denotes structural breakdown requiring strict containment.",
+    "source": "US Consumer Product Safety Commission (CPSC) & Battery University Guidelines",
+    "publication_year": 2023,
+    "source_name": "US Consumer Product Safety Commission (CPSC) & Battery University",
+    "source_url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Battery-Safety",
+    "retrieved_date": "2024-02-14"
+  },
+  {
+    "doc_id": "kb_phone_03_obsolete_software",
+    "category": "smartphones",
+    "title": "Smartphone Software Deprecation, Banking App Incompatibility, and Repurposing",
+    "symptoms": [
+      "Device no longer receives Android security patches or iOS updates",
+      "Banking, payment, and sensitive financial apps refuse to launch",
+      "Hardware (camera, GPS, display, speakers, cellular radio) is physically flawless",
+      "Sluggish app loading under newer bloated frameworks"
+    ],
+    "pathway_suitability": {
+      "repurpose": "OUTSTANDING PRIMARY PATHWAY. Device retains exceptional compute, sensor, and optical capabilities for non-banking single-purpose tasks.",
+      "continue_using": "Acceptable for secondary non-financial uses (music streaming, e-reading, navigation, offline GPS).",
+      "repair": "Not applicable (software/firmware limitation). Custom ROM (LineageOS) installation can provide modern Android versions on supported Qualcomm models.",
+      "reuse": "Can be gifted to children for offline games, music, or Wi-Fi educational apps.",
+      "donate": "Viable for wildlife tracking acoustic monitors, community tool libraries, or digital art displays.",
+      "recycle": "LAST RESORT ONLY. Discarding mint hardware due to cloud API obsolescence wastes pristine rare earth minerals."
+    },
+    "repair_considerations": "Custom ROM flashing requires unlocked bootloader, basic command line familiarity (fastboot/adb), and 1 hour of setup. Restores modern security patch level.",
+    "reuse_possibilities": "Offline audio player, high-resolution alarm clock, dedicated kitchen recipe viewer.",
+    "donation_considerations": "Acceptable for organizations that do not require enterprise MDM management.",
+    "repurposing_possibilities": "1. High-fidelity wireless audio streamer connected to vintage stereo; 2. Dedicated smart home thermostat/lighting control pad; 3. Wildlife bioacoustic monitoring device; 4. Vehicle telematics / offline Maps gateway.",
+    "recycling_considerations": "If recycling is chosen, perform factory cryptographic data wipe first.",
+    "safety_limitations": "Do not conduct sensitive banking or primary email operations on devices lacking modern TLS 1.3 and security patch updates.",
+    "evidence_text": "Smartphones contain upwards of 40 individual elements including neodymium magnets, tantalum capacitors, cobalt cathodes, and gold-plated connectors. When smartphone manufacturers end software security support after 3-5 years, the physical durability of the device remains virtually intact. The Ellen MacArthur Foundation emphasizes functional cascading (repurposing) as the premier mechanism to retain embodied product value without recycling destruction.",
+    "source": "Ellen MacArthur Foundation & European Circular Economy Stakeholder Platform",
+    "publication_year": 2024,
+    "source_name": "Ellen MacArthur Foundation Circular Electronics Case Study",
+    "source_url": "https://ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview",
+    "retrieved_date": "2024-06-11"
+  },
+  {
+    "doc_id": "kb_phone_04_tablet",
+    "category": "smartphones",
+    "title": "Tablet and iPad Touch Digitizer, Secondary Display, and Educational Kiosk Use",
+    "symptoms": [
+      "Tablet has large 9 to 12-inch display with minor hairline glass crack or scratch",
+      "Battery runtime reduced to 2-3 hours",
+      "Touch response works smoothly across 100% of panel",
+      "User upgraded to newer model and has no primary travel need for old tablet"
+    ],
+    "pathway_suitability": {
+      "repurpose": "OUTSTANDING PRIMARY PATHWAY. Deploy as secondary PC monitor (via Spacedesk/Duet), digital kitchen recipe station, smart sheet-music reader, or home assistant dashboard.",
+      "continue_using": "High suitability for media consumption, PDF reading, and streaming at home on coffee table or bedside stand.",
+      "reuse": "High demand in family circles for children's entertainment or drawing.",
+      "donate": "Highly sought after by pediatric wards, community art centers, and adult literacy centers.",
+      "repair": "Feasible screen replacement ($35-$70) if glass is actively shedding shards.",
+      "recycle": "Premature. The large display panel and battery retain substantial home utility."
+    },
+    "repair_considerations": "Tablets use extensive perimeter adhesive. Soften with heating pad or hair dryer before prying. Digitizer glass is often separate from LCD on budget models, keeping repair costs low.",
+    "reuse_possibilities": "Desktop extended monitor, digital photo slideshow frame, kitchen cooking companion.",
+    "donation_considerations": "Ensure passcode lock and iCloud/Google accounts are completely unbound before donation.",
+    "repurposing_possibilities": "1. Home automation touch panel mounted to wall; 2. Secondary display for laptop via Wi-Fi; 3. Dedicated digital piano sheet music display.",
+    "recycling_considerations": "Extract Li-ion battery before metal chassis shredding at e-waste depot.",
+    "safety_limitations": "Ensure adhesive does not pull on fragile ribbon cables during disassembly.",
+    "evidence_text": "Consumer electronics lifecycle studies indicate that tablets have longer secondary life potentials than smartphones due to their larger screen real-estate and indoor-dominated usage profiles. Even with degraded batteries, stationary wall-plugged kiosk roles extend functional lifespan by an additional 4 to 6 years without virgin manufacturing impacts.",
+    "source": "Electronics Eco-Design Observatory & Circular Hardware Consortium",
+    "publication_year": 2023,
+    "source_name": "Electronics Eco-Design Observatory & Circular Hardware Consortium",
+    "source_url": "https://therestartproject.org/data/",
+    "retrieved_date": "2024-04-05"
+  }
+]

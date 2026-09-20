@@ -1,0 +1,93 @@
+[
+  {
+    "doc_id": "kb_books_01_community_circulation",
+    "category": "books",
+    "title": "Clean Books, Textbooks, and Fiction Circulation via Community Loops",
+    "symptoms": [
+      "Pages clean, unbent or minimally creased",
+      "Binding spine intact, pages firmly glued or stitched",
+      "No active mold, mildew odors, or water rot",
+      "Current or classic title (fiction, biography, literature, recent non-fiction)"
+    ],
+    "pathway_suitability": {
+      "reuse": "STRONGLY RECOMMENDED PRIMARY PATHWAY. Direct gifting, peer book swap, or reselling on used book platforms (AbeBooks, ThriftBooks, PangoBooks).",
+      "donate": "Outstanding suitability for public library 'Friends of the Library' book sales, prison literacy projects, hospital reading carts, or local Little Free Libraries (neighborhood boxes).",
+      "continue_using": "Reread, lend to friends, or retain in personal library.",
+      "repurpose": "Hollowed-out secret book safe, decoupage papercraft, origami, or wall art using damaged-cover surplus copies.",
+      "recycle": "NOT RECOMMENDED. High-quality readable books should never be pulped when reading demand exists."
+    },
+    "repair_considerations": "PVA acid-free bookbinding glue ($5) fixes separated cover hinges in 5 minutes with a rubber band clamp. Erase pencil annotations with vinyl artist eraser.",
+    "reuse_possibilities": "Paperback and hardcover books can be read 30-50+ times across decades without degradation.",
+    "donation_considerations": "Check local library criteria: modern fiction, children's books, and recent non-fiction (under 5 years old) are eagerly welcomed. Most libraries decline out-of-date tax law books or 20-year-old software manuals.",
+    "repurposing_possibilities": "Surplus encyclopedias can be repurposed into book planters, vintage paper garlands, or acoustic wall panel dampeners.",
+    "recycling_considerations": "Paperback covers can be recycled in municipal paper streams; hardcover cloth/chipboard covers must be sliced off with a utility knife before pulping inner pages.",
+    "safety_limitations": "Ensure books stored in basements are aired out before placing in enclosed children's reading areas.",
+    "evidence_text": "Printed paper embodies significant virgin forestry, water pulping, and drying energy. The American Library Association notes that a single circulated book saves an average of 2.7 kg of forestry raw materials per loan cycle compared to new purchasing. Maximizing local community circulation through neighborhood book exchanges delivers zero-energy reuse.",
+    "source": "American Library Association (ALA) & Eco-Publishing Standards Guide",
+    "publication_year": 2023,
+    "source_name": "American Library Association (ALA) Preservation Guide",
+    "source_url": "https://www.ala.org/alcts/resources/preserv",
+    "retrieved_date": "2024-03-11"
+  },
+  {
+    "doc_id": "kb_books_02_water_mold",
+    "category": "books",
+    "title": "Water Damage, Mold Spores (Mildew), and Health Hazards in Paper Media",
+    "symptoms": [
+      "Musty, damp, pungent fungal odor",
+      "Pages stiff, warped, wavy, or stuck together like a solid brick",
+      "Visible black, green, or powdery white mold colonies along page margins or spine",
+      "Foxing (brown fungal/iron spots) on damp paper"
+    ],
+    "pathway_suitability": {
+      "recycle": "MANDATORY IF MOLD IS PRESENT. Active moldy books CANNOT BE DONATED OR CIRCULATED. Discard in compostable paper or municipal waste stream according to local bio-rules.",
+      "repair": "Only economically and historically justifiable for rare, antique, or legally irreplaceable manuscripts via professional conservator freeze-drying, HEPA vacuuming, and thymol fumigation.",
+      "donate": "STRICTLY PROHIBITED. Donating moldy books risks contaminating entire library and charity warehouse collections with airborne Aspergillus spores.",
+      "continue_using": "UNSAFE if active mold is present; handling moldy books causes respiratory distress, allergic rhinitis, and asthma triggers.",
+      "repurpose": "NOT RECOMMENDED due to spore inhalation hazard during cutting or tearing."
+    },
+    "repair_considerations": "If merely wet without mold: immediately stand book on head with pages fanned out in a room with a dehumidifier and high-speed fan running. Interleave paper towels every 20 pages. If mold has formed powdery fuzzy fruiting bodies, amateur chemical treatment (bleach/vinegar) permanently ruins paper fibers.",
+    "reuse_possibilities": "None for contaminated volumes.",
+    "donation_considerations": "Charities automatically trash moldy items to protect volunteer safety and indoor air quality.",
+    "repurposing_possibilities": "None safe.",
+    "recycling_considerations": "Tear off plasticized covers and place paper in municipal composting or paper recycling bin if dry.",
+    "safety_limitations": "BIOHAZARD WARNING: Wear N95 respirator and nitrile gloves when disposing of moldy books. Never smell or blow on dusty mold colonies.",
+    "evidence_text": "The Library of Congress Preservation Directorate emphasizes that fungal mycelia germinate within 48-72 hours of water exposure when relative humidity exceeds 65%. Mold spores (Aspergillus, Cladosporium, Stachybotrys) present documented allergic and pulmonary risks. Circulating water-damaged books to public institutions compromises archive biosecurity and poses health risks to immunocompromised readers.",
+    "source": "Library of Congress Preservation Directorate & Northeast Document Conservation Center (NEDCC)",
+    "publication_year": 2022,
+    "source_name": "Library of Congress Preservation Directorate & NEDCC",
+    "source_url": "https://www.loc.gov/preservation/care/dry.html",
+    "retrieved_date": "2024-01-19"
+  },
+  {
+    "doc_id": "kb_books_03_outdated_textbooks",
+    "category": "books",
+    "title": "Outdated Academic Textbooks, Encyclopedias, and Informational Obsolescence",
+    "symptoms": [
+      "Hardcover or paperback collegiate textbooks with superseded editions (e.g. 10th edition when 14th is required)",
+      "Multi-volume printed encyclopedias from 1980s-1990s with obsolete geopolitical maps",
+      "Pages are clean, dry, white, and odor-free with intact bindings",
+      "No secondary resale value on college buyback websites"
+    ],
+    "pathway_suitability": {
+      "repurpose": "HIGH SUITABILITY. Hardcover boards can be upcycled into sketchbooks, binders, or gift boxes. Pages are ideal for origami, blackout poetry, paper mache, or packing material.",
+      "recycle": "HIGH SUITABILITY FOR PULPING. Unlike contaminated books, clean dry paper is premium long-fiber feedstock for paper mills.",
+      "donate": "CAUTION. Most public libraries and literacy charities REJECT obsolete encyclopedias and decades-old science/medical/law books because information is factually outdated.",
+      "reuse": "Low for modern curricula; viable only for historical reference, art students, or stage props.",
+      "continue_using": "Low for evolving technical fields; viable for timeless mathematics or philosophy.",
+      "repair": "Not applicable."
+    },
+    "repair_considerations": "Not a physical defect. If recycling: strip hardcover boards using a utility knife along the spine hinge; paper pages go to paper recycling, bindings to general waste.",
+    "reuse_possibilities": "Historical research or theatrical stage props.",
+    "donation_considerations": "Call ahead: do not dump 30-volume encyclopedia sets outside charity donation bins without verification.",
+    "repurposing_possibilities": "1. Biodegradable weed barrier in gardens; 2. Shredded protective packing filler displacing plastic bubble wrap; 3. Sculptural papercraft.",
+    "recycling_considerations": "High-grade mechanical pulping into recycled tissue, cardboard, or egg cartons.",
+    "safety_limitations": "Use a self-healing cutting mat and safety ruler when slicing spines with utility knives.",
+    "evidence_text": "Over 80 million textbooks are discarded annually in North America alone as publishing houses issue minor revisions every 2-3 years to suppress used book markets. Academic library consortium studies advise against blind charitable dumping of obsolete informational volumes. Channeling clean pulp directly into paper recycling or upcycling into shredded packaging displaces virgin corrugated kraft paper.",
+    "source": "Association of American Publishers & Recycling Alliance for Paper Recovery",
+    "publication_year": 2023,
+    "source_name": "Association of American Publishers & Paper Recovery",
+    "source_url": "https://publishers.org/",
+    "retrieved_date": "2024-04-25"
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "doc_id": "kb_furn_01_solid_wood",
+    "category": "furniture",
+    "title": "Solid Hardwood Furniture Loose Joinery, Wobbly Legs, and Surface Scratches",
+    "symptoms": [
+      "Solid timber chair, table, or cabinet wobbles under pressure",
+      "Mortise and tenon, dowel, or dovetail joints have dried glue and slight gap",
+      "Surface finish (varnish, shellac, lacquer) shows ring marks, scratches, or shallow dents",
+      "Wood fibers are structurally sound, dense, with no dry rot or woodworm holes"
+    ],
+    "pathway_suitability": {
+      "repair": "STRONGLY RECOMMENDED PRIMARY PATHWAY. Disassemble loose joint gently with rubber mallet, scrape away old brittle glue, apply cross-linking PVA wood glue (Titebond II), and clamp firmly for 4-6 hours. Cost: <$5.",
+      "continue_using": "High suitability once clamped; solid wood lasts for generations with basic maintenance.",
+      "reuse": "High resale value on secondhand marketplaces (Craigslist, Facebook Marketplace, Kaiyo) as authentic solid timber.",
+      "donate": "Charity thrift stores (Habitat ReStore, Salvation Army) enthusiastically accept solid wood furniture.",
+      "repurpose": "Outstanding raw material: can be cut down into floating shelves, cutting boards, plant stands, or workshop benches.",
+      "recycle": "Solid untreated timber can be chipped for clean mulch or wood pellets, but burning or chipping fine hardwood destroys centuries of embodied growth value."
+    },
+    "repair_considerations": "Tools needed: Titebond wood glue, strap clamp or bar clamp, 120-220 grit sandpaper, Danish oil or beeswax paste. For steam-denting: place damp cloth over shallow dent and touch hot clothes iron to raise wood fibers.",
+    "reuse_possibilities": "Generational heirloom longevity.",
+    "donation_considerations": "Furniture must be structurally safe to sit on before donation.",
+    "repurposing_possibilities": "1. Turn wobbly dining table into low coffee table; 2. Dismantle chair back into decorative coat rack.",
+    "recycling_considerations": "Keep solid wood separate from treated or painted demolition debris at municipal drop-offs.",
+    "safety_limitations": "Ensure chairs are fully tested under load before allowing children or elderly individuals to use.",
+    "evidence_text": "Solid wood furniture represents high-density biological carbon sequestration. Forestry life cycle studies by the US Forest Service demonstrate that maintaining timber furniture in active service retains sequestered atmospheric carbon for the lifetime of the product. Modern wood glues form bonds with shear strengths exceeding 3,000 psi, creating joints structurally stronger than the surrounding wood fiber.",
+    "source": "US Forest Service Forest Products Laboratory & Furniture Repair Guild",
+    "publication_year": 2023,
+    "source_name": "US Forest Service Forest Products Laboratory & Furniture Repair Guild",
+    "source_url": "https://www.fpl.fs.usda.gov/",
+    "retrieved_date": "2024-02-08"
+  },
+  {
+    "doc_id": "kb_furn_02_particle_board_mdf",
+    "category": "furniture",
+    "title": "Flat-Pack Engineered Particle Board (MDF) Cam-Lock Failure and Water Swelling",
+    "symptoms": [
+      "IKEA/Target flat-pack bookcase or desk made of resin-glued sawdust with paper veneer",
+      "Metal cam-lock fastener has torn out of the soft crumbly particle board hole",
+      "Shelf has a permanent 2-3 cm sag under book weight",
+      "Base edge has absorbed water from mopping and swelled to twice its original thickness like soggy cardboard"
+    ],
+    "pathway_suitability": {
+      "repair": "MODERATE/LOW SUITABILITY. Crumbled cam-lock holes cannot be re-drilled cleanly. Repair requires screwing heavy-duty 90-degree steel corner L-brackets with short wide-thread wood screws directly into sound areas. Swollen water-damaged edges cannot be shrunk back.",
+      "continue_using": "Feasible if braced with steel brackets and relegated to garage/basement utility storage.",
+      "reuse": "Low market value; often listed for free curb pickup.",
+      "donate": "Charities routinely reject particle board items with torn fasteners or water swelling due to structural collapse risks.",
+      "repurpose": "Disassemble and use sound un-swelled panels as workshop shelving, paint drop boards, or drawer dividers.",
+      "recycle": "Difficult. Particle board contains toxic urea-formaldehyde resins; municipal biomass recyclers reject it. Requires bulky waste drop-off."
+    },
+    "repair_considerations": "Fill torn holes with 2-part epoxy putty (J-B Weld KwikWood) before resetting screws, or bypass the hole completely with a $1.50 metal corner bracket on the underside. Flip sagging shelves upside down to let gravity reverse the deflection.",
+    "reuse_possibilities": "Garage workbench or laundry room organizer.",
+    "donation_considerations": "Do not attempt to transport assembled particle board long distances in moving trucks; racking forces tear cam-locks apart.",
+    "repurposing_possibilities": "Garage shelf backing, shoe rack divider panels.",
+    "recycling_considerations": "Check with municipal solid waste: often designated for waste-to-energy incineration rather than organic composting.",
+    "safety_limitations": "MDF and particle board dust contains formaldehyde; wear particulate mask if sawing panels.",
+    "evidence_text": "Engineered wood products (particle board, medium-density fiberboard) comprise approximately 60% of contemporary fast-furniture volume. The Ellen MacArthur Foundation notes that adhesive resin binders (melamine, urea-formaldehyde) severely inhibit circular recycling, making physical repair via mechanical reinforcement brackets the only viable life-extension strategy before bulk municipal disposal.",
+    "source": "Ellen MacArthur Foundation Built Environment & WRAP UK Furniture Circularity Report",
+    "publication_year": 2022,
+    "source_name": "WRAP UK Bulky Furniture Circularity Review",
+    "source_url": "https://wrap.org.uk/",
+    "retrieved_date": "2024-05-30"
+  },
+  {
+    "doc_id": "kb_furn_03_upholstery",
+    "category": "furniture",
+    "title": "Upholstered Chairs and Sofas Fabric Staining, Cushion Sagging, and Deep Sanitization",
+    "symptoms": [
+      "Armchair or couch with surface coffee, food, or pet dirt staining on fabric",
+      "Seat cushions feel flat or sunken due to compressed polyurethane foam",
+      "Internal wooden/metal frame is rigid and does not wobble or creak",
+      "No bedbugs, structural frame breaks, or pungent urine odors"
+    ],
+    "pathway_suitability": {
+      "continue_using": "VERY HIGH SUITABILITY. Hot water extraction rental (e.g. Rug Doctor/Bissell) lifts 95% of organic surface stains for $30. Inserting 1-inch high-density upholstery foam ($15) into zippered cushion cores restores full loft and firmness.",
+      "repair": "High suitability. Slipcovers or staple-gun reupholstery give an old sofa a brand new modern aesthetic without discarding the frame.",
+      "reuse": "High demand once professionally cleaned or fitted with removable washable slipcover.",
+      "donate": "Charities accept clean stain-free upholstered goods with fire-retardant safety tags intact.",
+      "repurpose": "Salvage high-density foam for pet beds, acoustic sound insulation panels, or floor cushions.",
+      "recycle": "LAST RESORT. Upholstered furniture in landfills takes up immense volume and off-gasses flame retardants."
+    },
+    "repair_considerations": "Enzymatic fabric cleaner for stains. High-density foam (density 1.8-2.5 lbs/cu.ft) cut to size with electric carving knife or serrated bread knife. Cost: $15-$35.",
+    "reuse_possibilities": "Restores ergonomic lumbar support and eliminates sagging.",
+    "donation_considerations": "Verify presence of original fire safety label (e.g. TB117 or UK Furniture and Furnishings Fire Safety Regulations).",
+    "repurposing_possibilities": "Pet orthopedic bed, workshop bench cushion.",
+    "recycling_considerations": "Bulky waste municipal pickup often incinerates; divert via deep cleaning wherever possible.",
+    "safety_limitations": "Inspect thoroughly for insect pests (bed bugs). If bed bugs are detected, immediately wrap in plastic and contact licensed exterminator; never donate pest-infested furniture.",
+    "evidence_text": "Discarded bulky furniture represents approximately 4% of total municipal solid waste by volume in developed nations. WRAP UK reports that 42% of sofas and upholstered armchairs taken to civic amenity disposal sites could be immediately reused or restored with basic fabric deep-cleaning and foam cushion renewal. The structural timber and spring steel cores of furniture frames routinely outlast textile covers by over 30 years.",
+    "source": "WRAP UK Bulky Furniture Circularity Review & National Bed Federation",
+    "publication_year": 2023,
+    "source_name": "Ellen MacArthur Foundation Built Environment & Upholstery Circularity",
+    "source_url": "https://ellenmacarthurfoundation.org/",
+    "retrieved_date": "2024-06-14"
+  }
+]

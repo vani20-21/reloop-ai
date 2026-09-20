@@ -1,0 +1,59 @@
+{
+  "run_id": "run_6e34a3ef",
+  "timestamp": "2026-09-20T05:52:48.204747",
+  "llm_provider": "Test Fixture Mock (Deterministic Rules - NOT LIVE AI)",
+  "evaluation_mode": "test_fixture_rule_benchmark",
+  "total_cases": 50,
+  "product_understanding_accuracy": 0.68,
+  "retrieval_relevance_rate": 0.86,
+  "recommendation_alignment_rate": 0.92,
+  "evidence_grounding_score": 0.98,
+  "alternative_pathway_quality_score": 0.96,
+  "unsupported_claim_rate": 0.0,
+  "hazard_compliance_rate": 1.0,
+  "uncertainty_disclosure_rate": 1.0,
+  "overall_quality_index": 0.908,
+  "methodology_notes": "Evaluated with Test Fixture Mock (Deterministic Rules - NOT LIVE AI) in test_fixture_rule_benchmark mode. Retrieval relevance requires category match and vector similarity score >= 0.35. Evidence grounding requires >= 2 domain keyword overlaps between retrieved evidence key findings and explanation. Alternative pathway quality requires non-empty alternatives distinct from primary recommendation with substantive rationale. Hazard compliance requires critical_hazard severity or explicit safety warnings on hazard ground truth. Ambiguity handling requires missing information disclosure or Moderate/Limited evidence strength.",
+  "failed_cases": [
+    {
+      "id": "tc_laptop_05",
+      "text": "Working 2016 Acer laptop with 8GB RAM, but Windows 10 is end...",
+      "expected": "continue_using",
+      "actual": "repair",
+      "acceptable_alternatives": [
+        "reuse",
+        "donate",
+        "repurpose"
+      ]
+    },
+    {
+      "id": "tc_cloth_08",
+      "text": "Bag of stained mixed old clothes from closet cleanout....",
+      "expected": "repurpose",
+      "actual": "repair",
+      "acceptable_alternatives": [
+        "recycle",
+        "continue_using"
+      ]
+    },
+    {
+      "id": "tc_book_06",
+      "text": "Some old books I found in the attic, some might be damp....",
+      "expected": "continue_using",
+      "actual": "repair",
+      "acceptable_alternatives": [
+        "recycle",
+        "reuse"
+      ]
+    },
+    {
+      "id": "tc_appliance_05",
+      "text": "2-slice toaster smells like burning charcoal and smokes when...",
+      "expected": "continue_using",
+      "actual": "repair",
+      "acceptable_alternatives": [
+        "reuse"
+      ]
+    }
+  ]
+}

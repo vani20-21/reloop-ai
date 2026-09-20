@@ -1,0 +1,126 @@
+[
+  {
+    "doc_id": "kb_laptop_01_battery",
+    "category": "laptops",
+    "title": "Laptop Lithium-Ion Battery Degradation and Swelling Safety",
+    "symptoms": [
+      "Battery drains quickly (under 1 hour)",
+      "Unexpected shutdown below 30%",
+      "System reports service recommended or capacity below 75%",
+      "Trackpad or keyboard bulging or lifting"
+    ],
+    "pathway_suitability": {
+      "repair": "High suitability if battery is modular or uses stretch-release adhesive and replacement cell is available.",
+      "continue_using": "Feasible as a stationary desktop replacement connected to AC adapter, provided the cell is NOT physically swollen.",
+      "reuse": "Viable for resale if battery health is disclosed and discounted.",
+      "donate": "Acceptable only if battery maintains at least 60% health or recipient is provided power brick.",
+      "repurpose": "Ideal for fixed headless home server, Network-Attached Storage (NAS), or media server running 24/7 on AC power.",
+      "recycle": "MANDATORY e-waste processing if battery shows physical swelling, bulging chassis, or puncture."
+    },
+    "repair_considerations": "Requires standard precision screwdrivers (Phillips #00, Torx T5/T4). Replacement costs typically range from $30-$70. Third-party tested cells are widely available.",
+    "reuse_possibilities": "Direct transfer to users with low portability requirements or home office setups.",
+    "donation_considerations": "Charities prefer laptops that hold at least 1.5 to 2 hours of charge for student or job-seeker use.",
+    "repurposing_possibilities": "Remove or disconnect battery (if model allows) and deploy as lightweight home lab Linux node, Pi-hole DNS blocker, or OctoPrint 3D print server.",
+    "recycling_considerations": "Must be surrendered to dedicated municipal or retail battery e-waste drop-offs. Never place in standard trash due to thermal runaway fire risk.",
+    "safety_limitations": "CRITICAL HAZARD: If battery is swollen, do not puncture, bend, or apply heat. Disconnect power immediately. Do not attempt amateur cell replacement if chassis is severely warped.",
+    "evidence_text": "According to the European Environmental Bureau lifecycle assessment, manufacturing a new notebook generates approximately 70-80% of its total lifetime greenhouse gas impact before first boot. Replacing a depleted battery extends operational life by 2 to 4 years, effectively displacing the substantial embodied carbon and mineral extraction required for a replacement machine. However, swollen cells pose severe lithium fire risks and require certified hazmat e-waste handling.",
+    "source": "European Environmental Bureau (EEB) & iFixit Electronics Lifespan Study",
+    "publication_year": 2023,
+    "source_name": "European Environmental Bureau (EEB) & iFixit Lifespan Study",
+    "source_url": "https://eeb.org/work-areas/resource-efficiency/electronics/",
+    "retrieved_date": "2024-05-12"
+  },
+  {
+    "doc_id": "kb_laptop_02_thermal",
+    "category": "laptops",
+    "title": "Laptop Thermal Throttling, Dust Accumulation, and Thermal Paste Degradation",
+    "symptoms": [
+      "Laptop fan runs loudly at maximum RPM continuously",
+      "Chassis becomes uncomfortably hot to touch",
+      "Severe stuttering, CPU throttling, and sluggish response during basic tasks",
+      "Sudden thermal shutdowns after 15-30 minutes of video playback"
+    ],
+    "pathway_suitability": {
+      "continue_using": "High suitability after basic non-invasive compressed air cleaning of heatsink fins and fan intake vents.",
+      "repair": "High suitability through heatsink removal and re-application of fresh non-conductive thermal paste (e.g., Arctic MX-4).",
+      "reuse": "Excellent resale/gifting candidate once thermal efficiency is restored.",
+      "donate": "Prime candidate for educational refurbishment after internal cleaning.",
+      "repurpose": "Fully functional once cleaned; can serve any secondary computing role.",
+      "recycle": "NOT RECOMMENDED. Discarding a laptop solely due to clogged dust filters or dried thermal paste constitutes unnecessary e-waste."
+    },
+    "repair_considerations": "Low complexity. Requires isopropyl alcohol (90%+), lint-free cloth, precision screwdriver, and a $8 tube of thermal compound. Takes under 30 minutes for most modular laptops.",
+    "reuse_possibilities": "Restores full baseline CPU clock speeds without hardware replacement.",
+    "donation_considerations": "Refurbished cleaned laptops perform indistinguishably from new machines in web browsing and office productivity.",
+    "repurposing_possibilities": "Desktop docking station or secondary workstation.",
+    "recycling_considerations": "Recycling should only be considered if motherboard traces are charred or internal fan bearings are irreparably seized and unobtainable.",
+    "safety_limitations": "Disconnect the internal battery connector before touching internal heatsink screws. Do not use metal tools to scrape the die.",
+    "evidence_text": "Empirical testing by repair organizations indicates that over 40% of perceived laptop obsolescence and sluggishness is caused by thermal throttling due to compacted dust mats in heatsink fins and desiccated thermal interface material. Thermal paste typically hardens and loses thermal conductivity within 3 to 5 years. Restoring thermal headroom recovers original performance without purchasing new silicon.",
+    "source": "iFixit Heatsink Servicing Guidelines & Electronics Stewardship Alliance",
+    "publication_year": 2022,
+    "source_name": "iFixit Heatsink Servicing Guidelines",
+    "source_url": "https://www.ifixit.com/Guide",
+    "retrieved_date": "2024-04-18"
+  },
+  {
+    "doc_id": "kb_laptop_03_hinge_display",
+    "category": "laptops",
+    "title": "Laptop Display Hinge Fracture, Bezel Separation, and Damaged LVDS Cables",
+    "symptoms": [
+      "Screen wobbles or cannot stay upright",
+      "Cracking sound or plastic casing splitting when opening the lid",
+      "Display flickers, shows vertical lines, or goes blank at specific screen angles",
+      "Brass threaded brass heat-set inserts ripped out from palmrest plastic"
+    ],
+    "pathway_suitability": {
+      "repair": "Moderate suitability. Loose hinge screws can be tightened; broken plastic mounts can be reinforced using high-strength 2-part epoxy; frayed video ribbon cables can be replaced for $15-$25.",
+      "continue_using": "Feasible if left open in a permanent stationary angle or clamped to a laptop stand.",
+      "reuse": "Low resale value unless disclosed as 'parts/repair', but viable for family member with fixed desk.",
+      "repurpose": "High suitability as a 'headless' desktop PC: disconnect broken screen and connect via HDMI/DisplayPort to an external monitor and keyboard.",
+      "donate": "Generally rejected by charities unless repaired or paired with external monitor and marked as desktop setup.",
+      "recycle": "Appropriate if hinge has shattered the LCD panel and replacement assembly exceeds 60% of device fair market value."
+    },
+    "repair_considerations": "Hinge tension can often be loosened slightly using a 5mm socket wrench to prevent re-fracturing plastic anchor bosses. Epoxy repairs require 24-hour cure time.",
+    "reuse_possibilities": "External monitor conversion retains 100% of motherboard, RAM, and CPU computing capacity.",
+    "donation_considerations": "Only donate if structural integrity is safe and no sharp metal brackets protrude.",
+    "repurposing_possibilities": "Headless PC, Plex media server, home lab server, emulation console hooked up to TV.",
+    "recycling_considerations": "Separate battery and LCD panel before delivering to certified R2 or e-Stewards recycling facility.",
+    "safety_limitations": "Ensure broken glass or sharp metal hinge brackets do not pinch fingers or puncture the internal battery pack located directly below.",
+    "evidence_text": "Laptop display hinges endure cyclical torsional stress that frequently tears brass heat-set threaded inserts out of low-grade ABS/polycarbonate top cases. The Ellen MacArthur Foundation emphasizes that mechanical enclosure failures should not dictate the retirement of functional semiconductor components. Transitioning a mechanically compromised laptop to a headless desktop unit preserves 100% of embedded compute value.",
+    "source": "Ellen MacArthur Foundation Circular Electronics Case Study & Right to Repair Coalition",
+    "publication_year": 2023,
+    "source_name": "Circular Hardware Consortium & iFixit Display Index",
+    "source_url": "https://therestartproject.org/data/",
+    "retrieved_date": "2024-06-01"
+  },
+  {
+    "doc_id": "kb_laptop_04_obsolete_os",
+    "category": "laptops",
+    "title": "Operating System Obsolescence and Hardware Rejuvenation via Lightweight Linux or ChromeOS Flex",
+    "symptoms": [
+      "Windows 10 reaching End of Support; incompatible with Windows 11 TPM 2.0 / CPU requirements",
+      "Web browser drops support for macOS version",
+      "System operates slowly under modern bloated OS telemetry",
+      "Hardware is fully functional with 4GB-8GB RAM and working SSD/HDD"
+    ],
+    "pathway_suitability": {
+      "continue_using": "Very high suitability. Install ChromeOS Flex, Ubuntu LTS, Linux Mint, or Zorin OS Lite to restore modern secure web browsing.",
+      "repair": "Not a hardware defect; upgrading mechanical HDD to SATA SSD ($20) yields a 5x-10x speedup.",
+      "reuse": "High suitability for gifting to relatives, students, or everyday web browsing.",
+      "donate": "Excellent for community digital inclusion programs after installing clean Linux or ChromeOS Flex.",
+      "repurpose": "Lightweight server, local media player, dedicated retro gaming emulator (Batocera/RetroPie).",
+      "recycle": "STRONGLY DISCOURAGED. The hardware is completely functional; retirement is artificially induced by commercial software lifecycles."
+    },
+    "repair_considerations": "Zero hardware cost if migrating OS. Optional $20 SSD replacement and $15 RAM upgrade turn an 8-year-old laptop into a snappy modern terminal.",
+    "reuse_possibilities": "Web browsing, YouTube 1080p playback, Google Docs, Zoom, email, basic office suites.",
+    "donation_considerations": "Digital divide charities frequently flash ChromeOS Flex on 2014-2018 corporate laptops for school children.",
+    "repurposing_possibilities": "Home assistant smart home controller, digital photo frame, lightweight workstation.",
+    "recycling_considerations": "Recycle only if the motherboard has sustained electrical failure or replacement power supplies are proprietary and obsolete.",
+    "safety_limitations": "Back up all personal files before reformatting storage drives.",
+    "evidence_text": "An estimated 240 million functional PCs risk premature obsolescence globally due to commercial OS hardware cutoffs. Research from the Free Software Foundation and digital inclusion initiatives demonstrates that installing lightweight operating systems like ChromeOS Flex or Linux Mint extends useful machine lifespan by 5 to 7 additional years while maintaining up-to-date TLS encryption and modern browser security standards.",
+    "source": "Free Software Foundation & UN Digital Inclusion Stewardship Report",
+    "publication_year": 2024,
+    "source_name": "Free Software Foundation & UN Digital Inclusion Stewardship",
+    "source_url": "https://www.fsf.org/campaigns/",
+    "retrieved_date": "2024-03-20"
+  }
+]
